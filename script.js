@@ -18,3 +18,17 @@ const random = Math.floor(Math.random() * activities.length);
 alert("Try this: " + activities[random]);
 
 });
+function shareThought(){
+
+const text = document.getElementById("ventBox").value;
+
+if(text.trim() === ""){
+alert("Write something first 😊");
+return;
+}
+
+alert("Thanks for sharing 💜");
+
+document.getElementById("ventBox").value = "";
+
+}
