@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    alert("Welcome to Safe Haven 💙 A safe space just for teens!");
-});
+
+alert("Welcome to Safe Haven 💙 A safe space just for teens!");
+
 const boredBtn = document.getElementById("boredBtn");
 
 boredBtn.addEventListener("click", function () {
@@ -18,6 +19,10 @@ const random = Math.floor(Math.random() * activities.length);
 alert("Try this: " + activities[random]);
 
 });
+
+});
+
+
 function shareThought(){
 
 const text = document.getElementById("ventBox").value;
