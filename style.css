@@ -75,7 +75,8 @@ section {
 .quiet {
     background-color: #E6E0F8;
     text-align: center;
-}
+} 
+
 
 .quiet button {
     margin-top: 10px;
@@ -84,6 +85,16 @@ section {
     color: white;
     border: none;
     border-radius: 8px;
+} 
+#ventFeed{
+margin-top:20px;
+}
+
+.ventPost{
+background:#f4f4f4;
+padding:10px;
+margin-bottom:10px;
+border-radius:8px;
 }
 
 /* Footer */
@@ -92,4 +103,5 @@ footer {
     padding: 20px;
     background-color: #2F4A6D;
     color: white;
+
 }
